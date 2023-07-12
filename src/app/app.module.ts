@@ -14,6 +14,8 @@ import { ZDirectivesDirective } from './directives/z-directives.directive';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { CartComponent } from './components/cart/cart.component';
+import { SaleComponent } from './components/sale/sale.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { ContactComponent } from './components/contact/contact.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
+    CartComponent,
+    SaleComponent,
   ],
   imports: [
     BrowserModule,
